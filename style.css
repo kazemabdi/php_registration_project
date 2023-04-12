@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(lightcyan, deepskyblue);
+    height: 100vh;
+}
+
+@font-face {
+    font-family: Dancing_Script;
+    src: url(assets/font/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Indie_Flower;
+    src: url(assets/font/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+.div_class {
+    padding: 40px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.form_class {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+input {
+    width: 75%;
+    margin-top: 7px;
+    margin-bottom: 21px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    background: lightcyan;
+}
+
+input[type=submit] {
+    margin-top: 7px;
+    margin-bottom: 21px;
+    border-radius: 14px;
+    background-color: deepskyblue;
+    transition: 1s;
+    color: white;
+    padding: 14px;
+}
+
+input[type=submit]:hover {
+    width: 100%;
+    background-color: greenyellow;
+    color: black;
+}
+
+#login_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome_head {
+    font-family: Dancing_Script;
+    color: darkblue;
+    rotate: -7deg;
+    margin-bottom: 70px;
+}
+
+.welcome_foot {
+    font-family: Indie_Flower;
+}
+
+#div_menu {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 7px;
+    width: 100%;
+    justify-content: end;
+}
+
+#sign_in_item_menu {
+    margin: 7px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#sign_in_item_menu:hover {
+    text-decoration: underline;
+}
+
+#sign_up_item_menu {
+    background: lightcyan;
+    margin: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+#sign_up_item_menu:hover {
+    background: deepskyblue;
+}

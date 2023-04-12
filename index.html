@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kazix.ir</title>
+    <style>
+        body {
+            display: flex;
+            background: linear-gradient(lightcyan, deepskyblue);
+            height: 100vh;
+        }
+
+        #div_menu {
+            display: flex;
+            flex-direction: row;
+            background: white;
+            border-radius: 7px;
+            width: 100%;
+            height: fit-content;
+            justify-content: center;
+        }
+
+        #sign_in_item_menu {
+            margin: 7px;
+            border-radius: 7px;
+            text-decoration: none;
+            transition: 500ms;
+        }
+
+        #sign_in_item_menu:hover {
+            text-decoration: underline;
+        }
+
+        #sign_up_item_menu {
+            background: lightcyan;
+            margin: 7px;
+            border-radius: 7px;
+            text-decoration: none;
+            transition: 500ms;
+        }
+
+        #sign_up_item_menu:hover {
+            background: deepskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div_menu">
+        <a href="./sign_in.html" id="sign_in_item_menu">
+            <h3>Sign In</h3>
+        </a>
+        <a href="./sign_up.html" id="sign_up_item_menu">
+            <h3>Sign Up</h3>
+        </a>
+    </div>
+</body>
+
+</html>
